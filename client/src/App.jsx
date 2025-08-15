@@ -7,9 +7,6 @@ import SubmissionSuccess from './pages/SubmissionSuccess';
 import ViewFormResponses from './pages/ViewFormResponses';
 import NotFound from './components/NotFound';
 
-// Set the base URL for Axios requests
-import axios from 'axios';
-axios.defaults.baseURL = import.meta.env.VITE_API_URL || 'http://localhost:5000'; // Fallback for development
 
 function App() {
     return (
